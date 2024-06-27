@@ -1,4 +1,5 @@
 #include<iostream>
+#include<iomanip>
 using namespace std;
 
 float potentialEnergy(float m, float h, float g=9.8)
@@ -31,19 +32,19 @@ int main()
 	{
 		cout << "Enter mass and height: ";
 		cin >> m >> h;
-		cout << "Potential Engery is: " << potentialEnergy(m,h) <<" joule";
+		cout << fixed << setprecision << "Potential Engery is: " << potentialEnergy(m,h) <<" joule";
 	}
 	else if(choice == 2)
 	{
 		cout << "Enter radius of circle: ";
 		cin >> r;
-		cout << "Area of circle is: " << areaOfCricle(r) <<" sq. meter";
+		cout << fixed << setprecision <<  "Area of circle is: " << areaOfCricle(r) <<" sq. meter";
 	}
 	else if(choice == 3)
 	{
 		cout << "Enter money in rupees: ";
 		cin >> d;
-		cout << "$ " << d << " is Rs " << dollarsToRupee(d);
+		cout << fixed << setprecision <<  "$ " << d << " is Rs " << dollarsToRupee(d);
 	}
 	else
 	{
