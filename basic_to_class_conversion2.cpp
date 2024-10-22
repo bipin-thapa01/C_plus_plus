@@ -12,7 +12,7 @@ class Money
 		{
 			value = value/130;
 			int ref = value;
-			dollars = value;
+			dollars = ref;
 			cents = (value - ref)*100;
 		}
 		void display()

@@ -13,7 +13,7 @@ class Str
 		void input()
 		{	
 			cout << "Enter string: ";
-			cin >> a;
+			getline(cin,a);
 		}
 		Str operator +(Str obj)
 		{

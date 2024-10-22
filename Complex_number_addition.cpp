@@ -8,6 +8,7 @@ class Complex
 	public:
 		void input()
 		{
+			cout << endl << "Enter a complex number" << endl;
 			cout << "enter real part: ";
 			cin >> r;
 			cout << "enter imaginary part: ";

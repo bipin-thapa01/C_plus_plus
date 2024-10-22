@@ -22,6 +22,6 @@ class Child : public Parent
 int main()
 {
 	Parent *ptr = new Child;
-	ptr->Parent::display();
+	ptr->display();
 	return 0;
 }

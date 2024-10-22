@@ -32,19 +32,19 @@ int main()
 	{
 		cout << "Enter mass and height: ";
 		cin >> m >> h;
-		cout << fixed << setprecision << "Potential Engery is: " << potentialEnergy(m,h) <<" joule";
+		cout << fixed << setprecision(2) << "Potential Engery is: " << potentialEnergy(m,h) <<" joule";
 	}
 	else if(choice == 2)
 	{
 		cout << "Enter radius of circle: ";
 		cin >> r;
-		cout << fixed << setprecision <<  "Area of circle is: " << areaOfCricle(r) <<" sq. meter";
+		cout << fixed << setprecision(2) << "Area of circle is: " << areaOfCricle(r) <<" sq. meter";
 	}
 	else if(choice == 3)
 	{
 		cout << "Enter money in rupees: ";
 		cin >> d;
-		cout << fixed << setprecision <<  "$ " << d << " is Rs " << dollarsToRupee(d);
+		cout << fixed << setprecision(2) << "$ " << d << " is Rs " << dollarsToRupee(d);
 	}
 	else
 	{

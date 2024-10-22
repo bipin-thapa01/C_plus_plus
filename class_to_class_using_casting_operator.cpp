@@ -1,4 +1,4 @@
-//class to class conversion using casting function
+//class to class conversion using casting operator
 #include<iostream>
 using namespace std;
 

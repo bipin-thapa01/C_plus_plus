@@ -1,4 +1,4 @@
-//basic to class data conversion using constructors
+//basic to class data conversion using constructor
 #include<iostream>
 using namespace std;
 
@@ -12,7 +12,7 @@ class Money
 		{
 			float value = m/130;
 			int ref = m/130;
-			dollars = value;
+			dollars = ref;
 			cents = (value - ref)*100;
 		}
 		void display()
