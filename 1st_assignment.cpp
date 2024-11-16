@@ -75,15 +75,3 @@ int main(){
 	readFile.close();
 	return 0;
 }
-
-
-
-
-
-
-
-
-
-
-
-
